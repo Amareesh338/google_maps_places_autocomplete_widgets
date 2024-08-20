@@ -108,7 +108,7 @@ result["predictions"] =
       'input': input,
       'types': postalCodeLookup
           ? 'postal_code'
-          : 'address', // this is for looking up fully qualified addresses
+          : 'establishment', // this is for looking up fully qualified addresses
       // Could be used for ZIP lookups//   'types': 'postal_code',
       'key': mapsApiKey,
       'sessiontoken': sessionToken
